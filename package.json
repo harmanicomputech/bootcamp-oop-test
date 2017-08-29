@@ -1,0 +1,23 @@
+{
+  "name": "bootcamp-oop-test",
+  "version": "1.0.0",
+  "description": "An OOP functions that model real-world scenario/problem, while taking advantage of inheritance, encapsulation, polymorphism and the other OOP concepts.",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorharmani/bootcamp-oop-test.git"
+  },
+  "author": "Amusan Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorharmani/bootcamp-oop-test/issues"
+  },
+  "homepage": "https://github.com/victorharmani/bootcamp-oop-test#readme",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
