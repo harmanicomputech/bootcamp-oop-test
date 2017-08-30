@@ -8,22 +8,22 @@ class Phone{
     }
     //getter methods to access private properties: depicts encapsulation
     //class methods
-    getButttons(){
+    get Buttons(){
         return this._buttons;
     }
 
-    getScreen(){
+    get Screen(){
         return this._screen;
     }
-    getCharger(){
+    get Charger(){
         return this._charger;
     }
-    getBattery(){
+    get Battery(){
         return this._battery;
     }
 
     brokenScreen(){
-        return `I have a broken ${this._screen} `;
+        return `I have a broken screen`;
     }
 
     flat(time){
@@ -52,7 +52,7 @@ class Phone{
 
 class Samsung extends Phone{
     constructor(product_model){
-        super(); //inherits the constructor of its parent Phone
+        super(); //inherits 
         this._product_model = product_model || "Samsung s5";
         this._price = 0;
     }
@@ -73,4 +73,6 @@ class Samsung extends Phone{
 module.exports = {
     Phone: Phone,
     Samsung: Samsung
-}
+};
+// let myphone = new Phone();
+// console.log(myphone.Buttons);
